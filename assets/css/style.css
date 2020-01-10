@@ -16,7 +16,8 @@
 
 header, footer {
     color: white;
-    background-color: rgba(73, 5, 128, 0.678);
+    background-color: rgba(5, 93, 128, 0.678);
+    /* background-color: rgba(73, 5, 128, 0.678); */
     border-radius: 6px;
     margin: 1em 0;
 }
