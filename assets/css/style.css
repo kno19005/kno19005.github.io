@@ -26,11 +26,17 @@ header {
 }
 
 footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 14px;
-    text-align: center;
-    padding: .25rem;
 }
 
+footer #footdiv {
+    margin-top:15px;
+    margin-bottom:5px;
+}
 main {
     margin: 1.5em;
 }
@@ -42,14 +48,5 @@ h2 {
 
 #lastUpdated {
     color: yellow;
-    margin-top: -8px;
     padding-bottom: 10px;
-}
-
-#footerul {
-    display:flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin-left: 170px;
-    margin-right: 170px;
 }
