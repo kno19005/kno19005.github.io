@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
+    max-width: 960px;
     margin: 0 auto;
-    max-width: 800px;
     font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+
 }
 
-.me {
-    /* float: right; */
+.logo {
     width: 150px;
     box-shadow: 0px 0px 10px #000;
     border-radius: 6px;
@@ -40,6 +41,7 @@ footer {
 
 main {
     margin: 1.5em;
+    grid-template-columns: 1fr;
 }
 
 h2 {
