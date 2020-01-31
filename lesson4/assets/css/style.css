@@ -39,6 +39,8 @@ main {
 }
 
 footer {
+    position: sticky;
+    bottom: 0;
     flex-direction: column;
     font-size: 14px;
     max-width: 960px;
@@ -81,7 +83,8 @@ nav a:hover {
 }
 
 .active {
-    color: yellow;
+    color: rgb(18, 18, 158);
+    font-weight: bold;    
 }
 
 #footdiv {
