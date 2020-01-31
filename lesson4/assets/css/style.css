@@ -10,13 +10,6 @@ body {
     margin: 5px 5px 5px 5px;
 }
 
-.colorscheme {
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
-
 header, footer {
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -44,7 +37,6 @@ nav {
     height: 40px;
     background-color: rgba(101, 140, 224, 0.884);
 }
-
 
 nav ul {
     width: 100%;
@@ -84,14 +76,6 @@ section {
     font-family: 'Martel', serif;
 }
 
-.subul {
-    display: grid;
-}
-
-.fontimg{
-    margin: 15px;
-}
-
 .active {
     color: yellow;
 }
@@ -101,12 +85,7 @@ section {
     margin-bottom:5px;
 }
 
-#lastUpdated {
-    color: yellow;
-    padding-bottom: 10px;
-}
-
-h2, h3 {
+h2 {
     text-align: center;
     font-family: 'Martel', serif;
     font-size: 17px;
@@ -117,12 +96,17 @@ h2, h3 {
     visibility: visible;
 }
 
-.details {
+.contentbox {
     display: block;
     margin: 10px auto;
     padding: 10px 0px;
     border: 1px dashed black;
     font-style: italic;
-    width: 100%;
+    width: 80%;
     color: rgb(143, 143, 143);
+}
+
+#lastUpdated {
+    color: yellow;
+    padding-bottom: 10px;
 }
