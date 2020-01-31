@@ -14,6 +14,6 @@ let year = today.getFullYear();
 let name = "Tommy Knorr";
 let state = "Utah";
 let school = '<a href="https://www.byui.edu/online">BYUI Online Learning</a>';
-document.getElementById("footdiv").innerHTML = `&copy;The Elements | ${name} | ${state} | ${school}`;
+document.getElementById("footdiv").innerHTML = `&copy;The Elements | Attributions | ${name}`;
 document.getElementById("lastUpdated").innerHTML = `${dayName}, ${day} ${month} ${year}`
 
