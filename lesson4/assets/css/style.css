@@ -7,6 +7,7 @@ body {
 
 .logo {
     width: 15%;
+    max-width: 100px;
     margin: 5px 5px 5px 5px;
 }
 
@@ -22,8 +23,19 @@ header, footer {
 }
 
 header {
-    height: 125px;
+    height: 100px;
     width: 100%;
+}
+
+.motto {
+    font-family: 'Martel', serif;
+    font-size: .90em;
+    align-content: center;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 footer {
@@ -34,7 +46,6 @@ footer {
 }
 
 nav {
-    height: 40px;
     background-color: rgba(101, 140, 224, 0.884);
 }
 
@@ -55,21 +66,14 @@ nav li a {
     font-family: 'Montserrat', sans-serif;
 }
 
-li {
-    visibility: hidden;
-}
-
-#hamburgler {
-    visibility: visible;
-}
-
 nav a:hover {
     background-color: rgba(218, 234, 240, 0.678);
     color: #36454f;
+    width: 100%;
     transition: .5s;
 }
 
-section {
+.cityarea {
     padding: 5px;
     justify-content: left;
     background-color: rgba(218, 234, 240, 0.678);
@@ -91,22 +95,31 @@ h2 {
     font-size: 17px;
 }
 
-.magic li {
-    display: block;
-    visibility: visible;
-}
-
 .contentbox {
     display: block;
     margin: 10px auto;
     padding: 10px 0px;
     border: 1px dashed black;
     font-style: italic;
-    width: 80%;
+    width: 100%;
     color: rgb(143, 143, 143);
 }
 
 #lastUpdated {
     color: yellow;
     padding-bottom: 10px;
+}
+
+.navbar li:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+ .navbar li {
+    display: none;
+ }
+
+.magic li{
+    display: flex;
+    justify-content: center;
 }

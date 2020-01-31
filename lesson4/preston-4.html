@@ -15,16 +15,19 @@
     <script src="./assets/js/script.js" defer></script>
 </head>
 
-<body>
+<body onload="toggleInit()">
     <header>
-        <h1 id="name">The Elements</h1>
+        <section>
+            <h1 id="name">The Elements</h1>
+            <div class="motto">All weather all the time.</div>
+        </section>
         <img src="./assets/images/elements.png" class="logo" alt="clouds">
     </header>
     <nav>
         <ul class="navbar">
-            <li id="hamburgler" ><a href="#" onclick="toggleMenu()">☰</a></li>
+            <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a class="active" href="./preston-4.html">Preston</a></li>
+            <li><a href="./preston-4.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -32,7 +35,7 @@
         </ul>
     </nav>
     <main>
-        <section>
+        <section class="cityarea">
             <h2>Preston, Idaho</h2>
             <div class="contentbox">Hero w/weather summary</div>
             <div class="contentbox">5 Day Forecast</div>
