@@ -118,19 +118,21 @@ main {
     max-width: 100%;
 }
 
-.conditionstats {
-    position: absolute;
-    top: 21vh;
-    left: 4vw;
-    height: 80px;
-    background: whitesmoke;
-    border: 1px solid #000;
-    font-size: .65rem;
-    padding: 5px;
+.weathersummary {
+    background-image: url("/lesson5/assets/images/idaho_sky.jpg");
+    height: 10vh;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    padding: 10px;
+    overflow: visible;
 }
 
-.conditionstats h3 {
-    margin-top: -4px;
+.conditionstats {
+    width: 200px;
+    height: 120px;
+    background: whitesmoke;
+    border: 1px solid #000;
+    font-size: .75rem;
 }
 
 .compact {
@@ -181,6 +183,7 @@ h2 {
 }
 
 #story {
+    margin-top: 2vh;
     background-color: lightblue;
 }
 

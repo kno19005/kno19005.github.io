@@ -21,8 +21,6 @@ function toggleMenu(){
 // Date check for message
 if (today.getDay() == 5) {
     document.getElementById("partytime").style.visibility = "visible";
-    document.getElementById("override").style.marginTop = "5vh";
-    document.getElementById("override").style.marginLeft = ".5vh";
 }
  
 

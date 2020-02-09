@@ -30,11 +30,8 @@ footer {
     font-size: 1.25em;
 }
 
-.conditionstats {
-    top: 23vh;
-    left: 12vw;
-    font-size: .8rem;
-    height: 100px;
+.weathersummary {
+    height: 20vh;
 }
 
 .forecast {
@@ -48,23 +45,3 @@ footer {
 
 }
 
-/* @media only screen and (min-width: 38.5em) {
-.conditionstats {
-    top: 275px;
-    left: 95px;
-    height: 125px;
-    font-size: .8rem;
-    background-color: red;
-}
-}
-
-@media only screen and (min-width: 46.5em) {
-    .conditionstats {
-        top: 275px;
-        left: 105px;
-        height: 125px;
-        font-size: .8rem;
-        background-color: blue;
-    }
-    
-} */
