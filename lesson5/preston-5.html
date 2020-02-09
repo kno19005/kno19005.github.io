@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Elements</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Preston Town Page Part Duex : Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/medium.css">
+    <link rel="stylesheet" href="./assets/css/large.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+    <div id="partytime">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <section class="title">
+            <h1 id="name">The Elements</h1>
+            <div class="motto">All weather all the time.</div>
+        </section>
+        <img src="./assets/images/elements.png" class="logo" alt="clouds">
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="./preston-4.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="cityarea">
+            <h2>Preston, Idaho</h2>
+            <img class="heroimage" src="./assets/images/idaho_sky.jpg" alt="summary picture sky">
+            <div class="weathersummary">
+                <section id="override" class="conditionstats">
+                    <h3 class="compact">Current Conditions</h3>
+                    <p class="compact">Currently: Cloudy</p>
+                    <p class="compact">Temperature: 45° F</p>
+                    <p class="compact">Humidity: 13%</p>
+                    <p class="compact">Precipitation: 6 inches</p>
+                    <p class="compact">Wind Speed: 15 MPH</p>
+                </section>
+            </div>
+
+            <div class="forecast">
+                <h3>5 Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mon</th>
+                            <th>Tues</th>
+                            <th>Wed</th>
+                            <th>Thurs</th>
+                            <th>Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img class="smallelement" src="./assets/images/elements.png" alt="weathericon">50°F</td>
+                            <td><img class="smallelement" src="./assets/images/elements.png" alt="weathericon">50°F</td>
+                            <td><img class="smallelement" src="./assets/images/elements.png" alt="weathericon">50°F</td>
+                            <td><img class="smallelement" src="./assets/images/elements.png" alt="weathericon">50°F</td>
+                            <td><img class="smallelement" src="./assets/images/elements.png" alt="weathericon">50°F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <section id="story">
+                <div class="leftcol">
+                    <h4>What is Lorem Ipsum?</h4>
+                    <h5>By: Some Person</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the
+                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s
+                        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                        desktop
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+                <div class="rightcol parkimage">
+                    <img src="./assets/images/park.jpg" alt="park in Preston">
+                </div>
+
+            </section>
+
+            <section id="contact">
+                <div class="leftcol prestonmap">
+                    <img src="./assets/images/map.png" alt="map of Preston">
+                </div>
+                <div class="rightcol">
+                    <h4>Contact Information</h4>
+                    <p>The Elements</p>
+                    <p>100 E Center St.</p>
+                    <p>(208) 123-4567</p>
+                    <p>sayhi@elements.org</p>
+                </div>
+
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <div id="footdiv"></div>
+        <div id="currentDate"></div>
+    </footer>
+</body>

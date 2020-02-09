@@ -1,0 +1,70 @@
+@media only screen and (min-width: 32.5em) {
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: center;
+}
+    
+.navbar li:first-child {
+    display: none;
+}
+
+.contentbox {
+    width: 85%;
+}
+
+.cityarea {
+    width: 80%;
+}
+
+footer {
+    width: 85%;
+}
+
+#partytime {
+    font-size: 1.25em;
+}
+
+.conditionstats {
+    top: 31vh;
+    left: 11vw;
+    font-size: .8rem;
+    height: 100px;
+}
+
+.forecast {
+    display: flex;
+}
+
+.prestonmap img {
+    display: flex;
+    width: 100%;
+}
+
+}
+
+/* @media only screen and (min-width: 38.5em) {
+.conditionstats {
+    top: 275px;
+    left: 95px;
+    height: 125px;
+    font-size: .8rem;
+    background-color: red;
+}
+}
+
+@media only screen and (min-width: 46.5em) {
+    .conditionstats {
+        top: 275px;
+        left: 105px;
+        height: 125px;
+        font-size: .8rem;
+        background-color: blue;
+    }
+    
+} */
