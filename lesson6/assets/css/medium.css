@@ -1,0 +1,59 @@
+@media only screen and (min-width: 32.5em) {
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: center;
+}
+    
+.navbar li:first-child {
+    display: none;
+}
+
+.cityarea {
+    width: 85%;
+}
+
+footer {
+    width: 90%;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+#partytime {
+    font-size: 1.25em;
+}
+
+.forecast {
+    display: flex;
+}
+
+.prestonmap img {
+    display: flex;
+    width: 100%;
+}
+
+.conditionstats {
+    width: 220px;
+    height: 160px;
+    font-size: .85em;
+}
+
+
+}
+
