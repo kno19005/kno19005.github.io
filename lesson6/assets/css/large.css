@@ -32,4 +32,15 @@ footer {
     font-size: 1.3em;
 }
 
+.short-text {
+    display: none; 
+}
+.medium-text {
+    display: none; 
+}
+
+.large-text {
+    display: inline; 
+}
+    
 }
