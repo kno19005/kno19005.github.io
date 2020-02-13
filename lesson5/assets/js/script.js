@@ -19,7 +19,7 @@ function toggleMenu(){
 }
 
 // Date check for message
-if (today.getDay() == 3) {
+if (today.getDay() == 5) {
     document.getElementById("partytime").style.display = "block";
 }
  
