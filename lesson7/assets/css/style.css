@@ -1,0 +1,120 @@
+body {
+    background-color: whitesmoke;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 100%;
+    background-color: rgba(6, 61, 179, 0.884);
+}
+
+.logo {
+    width: 15%;
+    max-width: 100px;
+    margin: 5px 5px 5px 5px;
+}
+
+.motto {
+    font-family: 'Martel', serif;
+    font-size: .90em;
+    align-content: center;
+}
+
+footer {
+    margin: auto;
+    flex-direction: column;
+    position: sticky;
+    bottom: 0;
+    font-size: 14px;
+}
+
+nav {
+    background-color: rgba(101, 140, 224, 0.884);
+    width:100%;
+}
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+    background-color: rgba(218, 234, 240, 0.678);
+    color: #36454f;
+    width: 100%;
+    transition: .5s;
+}
+
+.navbar li:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+ .navbar li {
+    display: none;
+ }
+
+.magic li{
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    width:100%;
+    background-color: rgba(218, 234, 240, 0.678);
+    color: rgb(18, 18, 158);
+    font-weight: bold;    
+}
+
+#footdiv {
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+#currentDate {
+    color: yellow;
+    padding-bottom: 10px;
+}
+
+main {
+    text-align: center;
+    font-family: "Montserrat"; /* I love this font! */
+    font-size: 0.65em;
+}
+
+figure {
+    font-size: 1.15em;
+}
+
+.weatherimages {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+picture img[data-src] {
+    filter: sepia(100%) blur(0.75em); /* yeah! this is a crazy effect! */
+}
+  
+picture img {
+    width: 100%;
+    transition: filter 0.85s;
+}
+

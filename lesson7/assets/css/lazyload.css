@@ -1,0 +1,16 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: "Montserrat"; /* I love this font! */
+    display: grid;
+}
+
+picture img[data-src] {
+    filter: sepia(100%) blur(0.75em); /* yeah! this is a crazy effect! */
+}
+  
+picture img {
+    padding: 10px;
+    /* almost a full second to exaggerate the lazy load */
+    transition: filter 0.85s;
+}
