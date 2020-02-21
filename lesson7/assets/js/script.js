@@ -1,5 +1,5 @@
-const dayz = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-const monthz = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const dayz = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const monthz = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 let today = new Date();
 let day = today.getDate();
@@ -14,15 +14,15 @@ document.getElementById("footdiv").innerHTML = `&copy;The Elements | Attribution
 document.getElementById("currentDate").innerHTML = `${dayName}, ${day} ${month} ${year}`
 
 // Toggle menu in small
-function toggleMenu(){
+function toggleMenu() {
     document.getElementsByClassName("navbar")[0].classList.toggle("magic");
 }
 
 // Date check for message
-if (today.getDay() == 5) {
-    document.getElementById("partytime").style.display = "block";
-}
- 
+if (today.getDay() == 5) document.getElementById("partytime").style.display = "block";
+
+// Lets load some fonts!
+WebFont.load({ google: { families: ['Montserrat', 'Martel'] } });
 
 
 

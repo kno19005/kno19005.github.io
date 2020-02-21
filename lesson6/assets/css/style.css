@@ -8,7 +8,6 @@ body {
     text-align: center;
     background-color:yellowgreen;
     color: white;
-    padding: 1px;
 }
 
 header, footer {
@@ -86,7 +85,7 @@ nav a:hover {
 
 .cityarea {
     margin: 0 auto;
-    padding: 5px;
+    /* padding: 5px; */
     width: 100%;
     background-color: rgba(218, 234, 240, 0.678);
     font-family: 'Martel', serif;

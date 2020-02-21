@@ -1,7 +1,8 @@
 body {
     background-color: whitesmoke;
     text-align: center;
-    font-family: "Montserrat"; /* I love this font! */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: "Montserrat"; I love this font! */
     display: grid;
 }
 

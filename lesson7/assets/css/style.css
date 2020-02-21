@@ -2,6 +2,14 @@ body {
     background-color: whitesmoke;
 }
 
+#partytime {
+    display: none;
+    font-size: 1em;
+    text-align: center;
+    background-color: yellowgreen;
+    color: white;
+}
+
 header, footer {
     display: flex;
     justify-content: center;
@@ -34,7 +42,7 @@ footer {
 
 nav {
     background-color: rgba(101, 140, 224, 0.884);
-    width:100%;
+    width: 100%;
 }
 
 nav ul {
@@ -61,30 +69,30 @@ nav a:hover {
     transition: .5s;
 }
 
-.navbar li:first-child{
+.navbar li:first-child {
     display: flex;
     justify-content: center;
 }
 
- .navbar li {
+.navbar li {
     display: none;
- }
+}
 
-.magic li{
+.magic li {
     display: flex;
     justify-content: center;
 }
 
 .active {
-    width:100%;
+    width: 100%;
     background-color: rgba(218, 234, 240, 0.678);
     color: rgb(18, 18, 158);
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 #footdiv {
-    margin-top:15px;
-    margin-bottom:5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 #currentDate {
@@ -94,7 +102,8 @@ nav a:hover {
 
 main {
     text-align: center;
-    font-family: "Montserrat"; /* I love this font! */
+    font-family: "Montserrat";
+    /* I love this font! */
     font-size: 0.65em;
 }
 
@@ -110,11 +119,11 @@ figure {
 }
 
 picture img[data-src] {
-    filter: sepia(100%) blur(0.75em); /* yeah! this is a crazy effect! */
+    filter: sepia(100%) blur(0.75em);
+    /* yeah! this is a crazy effect! */
 }
-  
+
 picture img {
     width: 100%;
     transition: filter 0.85s;
 }
-

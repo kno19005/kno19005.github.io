@@ -19,10 +19,11 @@ function toggleMenu(){
 }
 
 // Date check for message
-if (today.getDay() == 5) {
-    document.getElementById("partytime").style.display = "block";
-}
- 
+if (today.getDay() == 5) document.getElementById("partytime").style.display = "block";
+
+// Lets load some fonts!
+WebFont.load({ google: { families: ['Montserrat', 'Martel'] } });
+
 
 
 
