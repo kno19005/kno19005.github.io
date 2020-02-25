@@ -3,9 +3,9 @@ body {
 }
 
 table {
-    width: 200pt;
-    font-family: "Ubuntu", sans;
     margin: 0 auto;
+    width: 200pt;
+    font-family: "ubuntu";
     border-collapse: collapse;
     box-shadow: 8px 8px 8px #628ca6;    
 }
