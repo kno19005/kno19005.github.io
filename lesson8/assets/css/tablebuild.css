@@ -5,7 +5,7 @@ body {
 table {
     margin: 0 auto;
     width: 200pt;
-    font-family: "ubuntu";
+    font-family: "Ubuntu", sans-serif;
     border-collapse: collapse;
     box-shadow: 8px 8px 8px #628ca6;    
 }
