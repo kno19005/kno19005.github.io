@@ -1,11 +1,11 @@
 body {
     text-align: center;
+    font-family: "Ubuntu", sans-serif;
 }
 
 table {
     margin: 0 auto;
     width: 200pt;
-    font-family: "Ubuntu", sans-serif;
     border-collapse: collapse;
     box-shadow: 8px 8px 8px #628ca6;    
 }
