@@ -142,5 +142,6 @@ legend {
     font-size: 14pt;
     margin: 15px;
     padding: 8px;
-    background-color: rgba(218, 234, 240, 0.678);
+    background-color: rgba(101, 140, 224, 0.884);
+    /* background-color: rgba(218, 234, 240, 0.678); */
 }
