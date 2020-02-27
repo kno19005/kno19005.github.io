@@ -1,14 +1,5 @@
 @media only screen and (min-width: 32.5em) {
-
-.weatherimages {
-    max-width: 700px;
-    grid-template-columns: 1fr 1fr;
-}
-
-figure {
-    font-size: 1.25em;
-}
-
+    
 ul {
     display: flex;
     justify-content: center;

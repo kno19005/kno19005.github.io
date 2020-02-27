@@ -1,19 +1,9 @@
 @media only screen and (min-width: 64em) {
 
-.weatherimages {
-    max-width: 1024px;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+li {
+    width: 100%;
+}    
     
-figure {
-    font-size: 1.5em;
-}
-
-figure:hover {
-    box-shadow: 0 0 30px rgb(136, 135, 135);
-    border-radius: 0px;
-}
-
 .motto {
     font-size: 1em;
 }

@@ -1,5 +1,10 @@
 @media only screen and (min-width: 64em) {
 
+
+li {
+    width: 100%;
+}    
+    
 .weatherimages {
     max-width: 1024px;
     grid-template-columns: 1fr 1fr 1fr;

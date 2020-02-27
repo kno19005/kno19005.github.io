@@ -14,12 +14,8 @@ ul {
     display: none;
 }
 
-.contentbox {
-    width: 5%;
-}
-
 .cityarea {
-    width: 85%;
+    width: 80vw;
 }
 
 footer {
