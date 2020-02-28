@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <movie>
+    <title>The Light Between Oceans</title>
+    <release_date>Sep 2, 2016</release_date>
+    <genre>Drama</genre>
+    <rating>PG-13</rating>
+    <total_gross>$12,545,979</total_gross>
+    <adjusted_gross>$12,545,979</adjusted_gross>
+  </movie>
+  <movie>
+    <title>Queen of Katwe</title>
+    <release_date>Sep 23, 2016</release_date>
+    <genre>Drama</genre>
+    <rating>PG</rating>
+    <total_gross>$8,874,389</total_gross>
+    <adjusted_gross>$8,874,389</adjusted_gross>
+  </movie>
+  <movie>
+    <title>Doctor Strange</title>
+    <release_date>Nov 4, 2016</release_date>
+    <genre>Adventure</genre>
+    <rating>PG-13</rating>
+    <total_gross>$232,532,923</total_gross>
+    <adjusted_gross>$232,532,923</adjusted_gross>
+  </movie>
+  <movie>
+    <title>Moana</title>
+    <release_date>Nov 23, 2016</release_date>
+    <genre>Adventure</genre>
+    <rating>PG</rating>
+    <total_gross>$246,082,029</total_gross>
+    <adjusted_gross>$246,082,029</adjusted_gross>
+  </movie>
+  <movie>
+    <title>Rogue One: A Star Wars Story</title>
+    <release_date>Dec 16, 2016</release_date>
+    <genre>Adventure</genre>
+    <rating>PG-13</rating>
+    <total_gross>$529,483,936</total_gross>
+    <adjusted_gross>$529,483,936</adjusted_gross>
+  </movie>
+</catalog>

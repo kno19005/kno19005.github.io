@@ -1,0 +1,42 @@
+[
+  {
+    "title": "The Light Between Oceans",
+    "release_date": "Sep 2, 2016",
+    "genre": "Drama",
+    "rating": "PG-13",
+    "total_gross": 12545979,
+    "adjusted_gross": 12545979
+  },
+  {
+    "title": "Queen of Katwe",
+    "release_date": "Sep 23, 2016",
+    "genre": "Drama",
+    "rating": "PG",
+    "total_gross": 8874389,
+    "adjusted_gross": 8874389
+  },
+  {
+    "title": "Doctor Strange",
+    "release_date": "Nov 4, 2016",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "total_gross": 232532923,
+    "adjusted_gross": 232532923
+  },
+  {
+    "title": "Moana",
+    "release_date": "Nov 23, 2016",
+    "genre": "Adventure",
+    "rating": "PG",
+    "total_gross": 246082029,
+    "adjusted_gross": 246082029
+  },
+  {
+    "title": "Rogue One: A Star Wars Story",
+    "release_date": "Dec 16, 2016",
+    "genre": "Adventure",
+    "rating": "PG-13",
+    "total_gross": 529483936,
+    "adjusted_gross": 529483936
+  }
+]
