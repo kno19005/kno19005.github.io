@@ -26,17 +26,20 @@ function myFunction(xml) {
     movies = xmlDoc.getElementsByTagName("movie");
 
     for (i = 0; i< movies.length; i++) {
+        // Create HTML elements as variables
         let movie = document.createElement('tr');
         let title = document.createElement('td');
         let release = document.createElement('td');
         let rating = document.createElement('td');
         let gross = document.createElement('td');
 
+        // Assign variables content from XML
         title.textContent = movies[i].getElementsByTagName('title')[0].textContent;
         release.textContent = movies[i].getElementsByTagName('release_date')[0].textContent;
         rating.textContent = movies[i].getElementsByTagName('rating')[0].textContent;
         gross.textContent = movies[i].getElementsByTagName('adjusted_gross')[0].textContent;
 
+        // Append HTML items
         movie.appendChild(title);
         movie.appendChild(release);
         movie.appendChild(rating);
