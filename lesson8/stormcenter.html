@@ -46,8 +46,8 @@
                     <label for="fullName">Full Name:<input type="text" name="fullName" id="fullName"
                             pattern="[A-Z a-z]{5,}" placeholder="first last" required></label>
                 </div>
-                <div>
-                    <label for="email">e-mail:<input type="email" name="email" id="email"
+                <div><label class="reddot">*</label>
+                    <label for="email">E-mail:<input type="email" name="email" id="email"
                             placeholder="your@email.com"></label>
                 </div>
                 <div><label class="reddot">*</label>
@@ -107,11 +107,11 @@
                     </select>
                 </div>
                 <div class="radioGroup">
-                    <label>Is everyone safe:</label>
-                    <label for="radioYes"><input type="radio" name="dangerLevel" id="radioYes" value="yes">Yes</label>
-                    <label for="radioMaybe"><input type="radio" name="dangerLevel" id="radioMaybe"
+                    <label class="radioitem">Is everyone safe:</label>
+                    <label class="radioitem" for="radioYes"><input type="radio" name="dangerLevel" id="radioYes" value="yes">Yes</label>
+                    <label class="radioitem" for="radioMaybe"><input type="radio" name="dangerLevel" id="radioMaybe"
                             value="maybe">Maybe</label>
-                    <label for="radioNo"><input type="radio" name="dangerLevel" id="radioNo" value="no">No</label>
+                    <label class="radioitem" for="radioNo"><input type="radio" name="dangerLevel" id="radioNo" value="no">No</label>
                 </div>
             </fieldset>
 

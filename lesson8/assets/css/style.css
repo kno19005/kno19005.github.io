@@ -33,7 +33,7 @@ header, footer {
 }
 
 footer {
-    margin: auto;
+    margin: 0px auto;
     flex-direction: column;
     position: sticky;
     bottom: 0;
@@ -100,13 +100,17 @@ nav a:hover {
     padding-bottom: 10px;
 }
 
-main {
+h1 {
     text-align: center;
+}
+
+main {
+    text-align: left;
     font-family: "Montserrat";
     font-size: 0.65em;
 }
 
-#reddot {
+.reddot {
     color: red;
 }
 
@@ -130,12 +134,22 @@ legend {
     padding: 8px;
 }
 
-.radioGroup {
-    margin: 10px;
-}
-
 #addinfo {
     width: 99%;
+}
+
+div {
+    padding-right: 30px;
+ }
+
+#stormRegion {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.radioitem {
+    display: flex;
+    margin-bottom: 10px;
 }
 
 #submitButton {
@@ -144,4 +158,8 @@ legend {
     padding: 8px;
     background-color: rgba(101, 140, 224, 0.884);
     /* background-color: rgba(218, 234, 240, 0.678); */
+}
+
+.thanks {
+    margin: 10%;    
 }

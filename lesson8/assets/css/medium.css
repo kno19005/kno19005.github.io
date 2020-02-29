@@ -27,6 +27,13 @@ h4 {
     font-size: 1.3em;
 }
 
+main {
+    text-align: center;
+}
+
+.radioitem {
+    display: inline;
+}
 
 footer {
     width: 90%;
