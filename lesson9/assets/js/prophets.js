@@ -32,3 +32,7 @@ fetch(requestURL)
             document.querySelector('div.cards').appendChild(pokerplayer);
         }
     });
+
+
+// Lets load some fonts!
+WebFont.load({ google: { families: ['Montserrat', 'Martel'] } });

@@ -8,7 +8,8 @@ main {
     box-shadow: 0 0 20px black;
 }
 
-h1 {
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
     color: #3f3f8d;
 }
 
@@ -25,16 +26,17 @@ img {
 p {
     margin-top: -10px;
     color: black;
+    font-family: 'Martel';
 }
 
 section {
     margin: 2px;
     padding-bottom: 10px;
-    color: #3f3f8d;
     border: 1px darkslateblue solid;
     background-color: #b9b9cc;
 }
 
 footer {
+    font-family: 'Montserrat', sans-serif;
     padding: 20px;
 }
