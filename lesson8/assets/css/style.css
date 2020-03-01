@@ -152,6 +152,10 @@ div {
     margin-bottom: 10px;
 }
 
+.submitButton {
+    text-align: center;
+}
+
 #submitButton {
     font-size: 14pt;
     margin: 15px;
