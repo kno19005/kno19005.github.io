@@ -1,5 +1,40 @@
-#someclassname {
-    border: 1px solid black;
-    background-color: blueviolet;
+body {
+    text-align: center;
 }
 
+main {
+    margin: 10px;
+    background-color: #dddddd;
+    box-shadow: 0 0 20px black;
+}
+
+h1 {
+    color: #3f3f8d;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+img {
+    width: 60%;
+    box-shadow: 0 0 15px black;
+}
+
+p {
+    margin-top: -10px;
+    color: black;
+}
+
+section {
+    margin: 2px;
+    padding-bottom: 10px;
+    color: #3f3f8d;
+    border: 1px darkslateblue solid;
+    background-color: #b9b9cc;
+}
+
+footer {
+    padding: 20px;
+}
