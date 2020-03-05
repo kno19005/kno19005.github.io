@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Elements | The Weather Site Project</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Weather Site Project : Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/medium.css">
+    <link rel="stylesheet" href="./assets/css/large.css">
+</head>
+
+<body>
+    <div id="partytime" hidden>
+        Saturday = Preston Pancakes in the Park!<br> 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <header>
+        <div>
+            <h1>The Elements</h1>
+            <div class="motto">All weather all the time.</div>
+        </div>
+        <img src="./assets/images/elements.png" class="logo" alt="clouds">
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson9/index.html" class="active">Home</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Town Information</h1>
+        <div class="towninfo"></div>
+    </main>
+
+    <footer>
+        <div id="footdiv"></div>
+        <div id="currentDate"></div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/towninfo.js" defer></script>
+
+</body>

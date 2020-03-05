@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em) {
+    
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: center;
+}
+    
+.navbar li:first-child {
+    display: none;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.towninfo{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+footer {
+    width: 90%;
+}
+
+
+}
+
