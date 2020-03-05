@@ -33,7 +33,7 @@ section {
     margin: 2px;
     padding-bottom: 10px;
     border: 1px darkslateblue solid;
-    background-color: #b9b9cc;
+    background-color: rgba(218, 234, 240, 0.678);
 }
 
 footer {
