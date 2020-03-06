@@ -22,9 +22,29 @@ footer {
 }
 
 .townname {
-    font-size: 2em;
+    font-size: 38px;
+}
+
+.townsection {
+    display: block;
+}
+
+.townsection div {
+    height: 160px;
+}
+
+.towninfo {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.townimage {
+    width: 90%;
+}
+
+.townmotto {
+    font-size: 16px;
 }
 
 
-    
 }

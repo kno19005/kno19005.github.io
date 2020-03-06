@@ -108,16 +108,17 @@ main {
     text-align: center;
 }
 
-.towninfo{
-    display:grid;
-    margin-bottom: 10px;
+.towninfo {
+    display: grid;
+    /* margin-bottom: 1px; */
 }
 
-section {
+.townsection {
     font-family: "Martel";
-    width: 95%;
+    display: block;
+    width: 80%;
     margin: 15px auto;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     border: 1px darkgray solid;
     background-color: rgba(218, 234, 240, 0.678);
 }
@@ -135,7 +136,8 @@ section {
     font-style: italic;
     font-weight: bold;
     font-size: 14px;
-    margin-top: -10px;
+    margin-top: -20px;
+    padding: 0px 20px;
 }
 
 .townimage {
@@ -146,6 +148,7 @@ section {
 }
 
 .towndetails {
+    margin: 2px;
     font-size: 16px;
 }
 
