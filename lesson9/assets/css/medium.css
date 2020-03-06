@@ -23,7 +23,7 @@ footer {
 }
 
 .towninfo {
-    display: flex;
+    display: flex; /* flex over grid in medioum */
     flex-wrap: wrap;
 }
 

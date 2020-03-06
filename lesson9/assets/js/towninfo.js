@@ -21,6 +21,7 @@ fetch(requestURL)
                 let rainfall = document.createElement('p');
                 let image = document.createElement('img');
 
+                // I know this is overkill.. wanted to see if I could set classes via Javascript
                 card.setAttribute('class', 'townsection');
                 h2.setAttribute('class','townname');
                 motto.setAttribute('class', 'townmotto');
