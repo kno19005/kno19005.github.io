@@ -110,6 +110,8 @@ main {
     font-size: 0.65em;
 }
 
+
+/* Start Stormcenter */
 .reddot {
     color: red;
 }
@@ -138,6 +140,7 @@ legend {
     width: 99%;
 }
 
+/* this may cause probs */
 div {
     padding-right: 30px;
  }
@@ -167,3 +170,5 @@ div {
 .thanks {
     margin: 10%;    
 }
+
+/* End Storm Center

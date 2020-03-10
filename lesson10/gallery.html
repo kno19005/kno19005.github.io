@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Elements</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery Page : Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/medium.css">
+    <link rel="stylesheet" href="./assets/css/large.css">
+</head>
+
+<body>
+    <div id="partytime" hidden>
+        Saturday = Preston Pancakes in the Park!<br> 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <header>
+        <div>
+            <h1>The Elements</h1>
+            <div class="motto">All weather all the time.</div>
+        </div>
+        <img src="./assets/images/elements.png" class="logo" alt="clouds">
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="galleryhtml" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Progressive Loading of Images</h1>
+        <div class="weatherimages">
+            <figure>
+                <picture>
+                    <img src="./assets/images/placeholder.png" data-src="./assets/images/mountain_sun_300x400.jpeg"
+                        alt="mountain image">
+                </picture>
+                <figcaption>Snowy Mountain Rising Sun</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <img src="./assets/images/placeholder.png" data-src="./assets/images/rainbow_300x400.jpeg"
+                        alt="Rainbow after storm">
+                </picture>
+                <figcaption>Rainbow after storm</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <img src="./assets/images/placeholder.png" data-src="./assets/images/clouds_sky_300x400.jpeg"
+                        alt="clouds and sky image">
+                </picture>
+                <figcaption>Hazy Cloudy Sky</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <img src="./assets/images/placeholder.png" data-src="./assets/images/fog_forest_300x400.jpeg"
+                        alt="foggy forest image">
+                </picture>
+                <figcaption>Fog in the Forest</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <img src="./assets/images/placeholder.png" data-src="./assets/images/snowing_300x400.jpeg"
+                        alt="Snowing">
+                </picture>
+                <figcaption>Snowing</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <img src="./assets/images/placeholder.png" data-src="./assets/images/lake_300x400.jpeg"
+                        alt="lake image">
+                </picture>
+                <figcaption>Sunny at the Lake</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <img src="./assets/images/placeholder.png" data-src="./assets/images/valley_trees_300x400.jpeg"
+                        alt="valley and trees image">
+                </picture>
+                <figcaption>Chilly</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <img src="./assets/images/placeholder.png" data-src="./assets/images/lightning_300x400.jpeg"
+                        alt="lightning storm">
+                </picture>
+                <figcaption>Lightning Storm</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <img src="./assets/images/placeholder.png" data-src="./assets/images/winter_forest_300x400.jpeg"
+                        alt="winter forest image">
+                </picture>
+                <figcaption>Snow on Pine Trees</figcaption>
+            </figure>
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="footdiv"></div>
+        <div id="currentDate"></div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/lazyload.js" defer></script>
+</body>
