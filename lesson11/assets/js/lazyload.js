@@ -25,4 +25,4 @@ else {
 }
 
 // Lets load some fonts!
-WebFont.load({ google: { families: ['Montserrat', 'Martel'] } });
+// WebFont.load({ google: { families: ['Montserrat', 'Martel'] } });

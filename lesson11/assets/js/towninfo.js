@@ -5,7 +5,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject);  // temporary checking for valid response and data parsing
         const towns = jsonObject['towns'];
         // we are only dealing with 3 specific towns, but JSON has additional
         // this is the set were are dealing with.
