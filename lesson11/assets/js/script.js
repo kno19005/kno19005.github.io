@@ -22,4 +22,4 @@ function toggleMenu() {
 if (today.getDay() == 5) document.getElementById("partytime").style.display = "block";
 
 // Lets load some fonts!
-WebFont.load({ google: { families: ['Montserrat', 'Martel:&display=swap'] } });
+WebFont.load({ google: { families: ['Montserrat', 'Martel:display=swap'] } });
