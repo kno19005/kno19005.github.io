@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Elements</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Preston Town Page Re-Duex : Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/medium.css">
+    <link rel="stylesheet" href="./assets/css/large.css">
+</head>
+
+<body>
+    <div id="partytime" hidden>
+        Saturday = Preston Pancakes in the Park!<br> 9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <header>
+        <section>
+            <h1>The Elements</h1>
+            <div class="motto">All weather all the time.</div>
+        </section>
+        <img src="./assets/images/elements.png" class="logo" alt="clouds">
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <section class="cityarea">
+            <div class="weathersummary">
+                <picture class="heroimage">
+                    <img src="./assets/images/hero_small.jpg"
+                        srcset="./assets/images/hero_small.jpg 300w, ./assets/images/hero_medium.jpg 600w, ./assets/images/hero_large.jpg 1000w"
+                        sizes="(max-width: 1300px) 50vw, 100vw" alt="weather summary image" />
+                </picture>
+                <span class="textmsg short-text">Small</span>
+                <span class="textmsg medium-text">Medium</span>
+                <span class="textmsg large-text">Large</span>
+                <section class="conditionstats">
+                    <h3 class="compact">Current Conditions</h3>
+                    <p class="compact">Currently:  <span id="currently">?</span></p>
+                    <p class="compact">Temperature: <span id="temperature">?</span> °F</p>
+                    <p class="compact">Wind Chill: <span id="windchill">?</span> °F</p>
+                    <p class="compact">Humidity: <span id="humidty">?</span> %</p>
+                    <p class="compact">Wind Speed: <span id="windspeed">?</span> MPH</p>
+                </section>
+            </div>
+
+            <div class="forecast">
+                <h4>5 Day Forecast</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="day1">day1</th>
+                            <th id="day2">day2</th>
+                            <th id="day3">day3</th>
+                            <th id="day4">day4</th>
+                            <th id="day5">day5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img id="day1_image" src="#" alt="#"><span id="day1_temp"></span> °F</td>
+                            <td><img id="day2_image" src="#" alt="#"><span id="day2_temp"></span> °F</td>
+                            <td><img id="day3_image" src="#" alt="#"><span id="day3_temp"></span> °F</td>
+                            <td><img id="day4_image" src="#" alt="#"><span id="day4_temp"></span> °F</td>
+                            <td><img id="day5_image" src="#" alt="#"><span id="day5_temp"></span> °F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <section id="story">
+                <div class="leftcol">
+                    <h4>What is Lorem Ipsum?</h4>
+                    <h5>By: Some Person</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the
+                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s
+                        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                        desktop
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+                <div class="rightcol parkimage">
+                    <img src="./assets/images/park.jpg" alt="park in Preston">
+                </div>
+
+            </section>
+
+            <section id="contact">
+                <div class="leftcol prestonmap">
+                    <img src="./assets/images/map.png" alt="map of Preston">
+                </div>
+                <div class="rightcol">
+                    <h4>Contact Information</h4>
+                    <p>The Elements</p>
+                    <p>100 E Center St.</p>
+                    <p>(208) 123-4567</p>
+                    <p>sayhi@elements.org</p>
+                </div>
+
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <div id="footdiv"></div>
+        <div id="currentDate"></div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/windchill.js" defer></script>
+</body>
