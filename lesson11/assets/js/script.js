@@ -1,3 +1,5 @@
+const apiKey = "5419d5359d910bc3d1b911b5cef37344";
+
 const dayz = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const monthz = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -25,29 +27,6 @@ if (today.getDay() == 5) document.getElementById("partytime").style.display = "b
 WebFont.load({ google: { families: ['Montserrat', 'Martel'] } });
 
 
-// This function is called on page load for Preston, Soda Springs, and Fish Haven
-// The town name is passed in to set variables, which in turn are used to load info
-function setCurrentPage(pageName){
-    const apiKey = "5419d5359d910bc3d1b911b5cef37344";
-    let cityName = pageName;
-    let apiCity = "";
-    let mapurl = "";
-
-    if (pageName == "Preston") {
-        apiCity = "5604473";
-        mapurl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726282696654!2d-111.91534443779182!3d42.09980531182263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1584318113833!5m2!1sen!2sus";
-    } else if (pageName == "Soda Springs") {
-        apiCity = "5607916";
-        mapurl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.91300976227!2d-111.6238773181053!3d42.661470608918485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1584327830893!5m2!1sen!2sus";
-    } else if (pageName == "Fish Haven") {
-        apiCity = "5585010";
-        mapurl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11852.955857719517!2d-111.4048466046934!3d42.038055855660446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish%20Haven%2C%20ID%2083287!5e0!3m2!1sen!2sus!4v1584329783406!5m2!1sen!2sus";
-    }
-    document.getElementById('gogglemap').setAttribute('src', mapurl);
-    getCurrentStats(`https://api.openweathermap.org/data/2.5/weather?id=${apiCity}&units=imperial&APPID=${apiKey}`);
-    getFiveDayForecast(`https://api.openweathermap.org/data/2.5/forecast?id=${apiCity}&units=imperial&APPID=${apiKey}`);
-    townEvents(cityName);
-};
 
 function getWindChill(){
     let temp = parseInt(document.getElementById("temperature").innerText);

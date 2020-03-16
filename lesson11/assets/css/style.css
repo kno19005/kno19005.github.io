@@ -191,17 +191,17 @@ td img {
     padding-left: 25px;
 }
 
-.townmap {
-    display: flex;
+.townmap img {
+    display: none;
 }
 
-iframe {
+/* iframe {
     height: 300px;
     width: 100%;
     margin: 10px;
     padding: 2px;
     border:2px solid skyblue;
-}
+} */
 
 .textmsg {
     position: absolute;
