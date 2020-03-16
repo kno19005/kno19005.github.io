@@ -31,11 +31,20 @@ main {
     text-align: center;
 }
 
+.townevents {
+    text-align: center;
+}
+
+.townevents li {
+    margin: 10px;
+}
+
+
 footer {
     width: 90%;
 }
 
-/* Preston */
+/* Town Page */
 .cityarea {
     width: 85%;
 }
@@ -44,29 +53,19 @@ footer {
     display: flex;
 }
 
-.prestonmap img {
-    display: flex;
-    width: 100%;
-}
-
 .conditionstats {
     width: 220px;
     height: 135px;
     font-size: .85em;
 }
 
-.short-text {
-display: none; 
+.story, .contact {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: lightblue;
 }
-.medium-text {
-    display: inline; 
-}
-
-.large-text {
-    display: none; 
-}
-
-/* Preston */
+/* Town Page */
 
 
 /* Gallery */

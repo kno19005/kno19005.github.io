@@ -30,24 +30,13 @@ footer {
     font-size: 16px;
 }
 
-/* Preston */
+/* Town Page */
 .conditionstats {
     width: 300px;
     height: 245px;
     font-size: 1.3em;
 }
-
-.short-text {
-    display: none; 
-}
-.medium-text {
-    display: none; 
-}
-
-.large-text {
-    display: inline; 
-}
-/* Preston */
+/* Town Page */
 
 /* Gallery */
 .weatherimages {
