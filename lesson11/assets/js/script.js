@@ -12,7 +12,8 @@ let year = today.getFullYear();
 let name = "Tommy Knorr";
 let state = "Utah";
 let school = '<a href="https://www.byui.edu/online">BYUI Online Learning</a>';
-document.getElementById("footdiv").innerHTML = `&copy;The Elements | Attribution | ${name}`;
+let openweather = '<a href="https://openweathermap.org/">openweathermap.org</a>';
+document.getElementById("footdiv").innerHTML = `&copy;The Elements | ${openweather} | ${name}`;
 document.getElementById("currentDate").innerHTML = `${dayName}, ${day} ${month} ${year}`
 
 // Toggle menu in small

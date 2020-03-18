@@ -121,6 +121,32 @@ main {
     text-decoration: underline;    
 }
 
+
+/* additional information links */
+.ai-links {
+    margin-bottom: 30px;
+}
+
+.ai-link {
+	display: inline-block;
+    font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	border:2px solid rgba(101, 140, 224, 0.884);
+    background-color: rgba(101, 140, 224, 0.884);
+	border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px 10px;
+}
+
+.ai-link:hover {
+    background-color: rgba(218, 234, 240, 0.678);
+    color: #36454f;
+    transition: .5s;
+}
+/* additional information links */
+
 /* Town Page */
 .cityarea {
     margin: 0 auto;
