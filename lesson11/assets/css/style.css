@@ -1,3 +1,11 @@
+/*
+
+
+Merged all CSS
+
+
+*/
+
 body {
     background-color: whitesmoke;
 }
@@ -31,6 +39,7 @@ header, footer {
     font-size: .90em;
     align-content: center;
 }
+
 
 footer {
     margin: auto;
@@ -108,6 +117,10 @@ h2 {
     font-family: 'Martel', serif;
 }
 
+h3, h4 {
+    text-decoration: underline;    
+}
+
 main {
     text-align: center;
 }
@@ -116,11 +129,6 @@ main {
     text-align: left;
 
 }
-
-.ulme {
-    text-decoration: underline;    
-}
-
 
 /* additional information links */
 .ai-links {
@@ -167,15 +175,19 @@ main {
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 150px;
-    height: 130px;
     border: 1px solid #000;
-    font-size: .75rem;
+    font-size: .85rem;
     opacity: .70;
     background-color: lightgray;
     padding-left: 10px;
     text-align: left;
     text-transform: capitalize;
+    padding: 10px;
+}
+
+section.conditionstats h3,
+section.conditionstats p {
+    margin: .3em 0;
 }
 
 .forecast {
@@ -186,13 +198,20 @@ main {
     font-size: 20px;
 }
 
-td img {
-    width: 75px;
-    height: 75px;
+table {
+    margin-top: -20px;
+    border-collapse: collapse;
+    border: 1pt solid #7fb9c2;;
 }
 
-.compact {
-    margin-bottom: -10px;
+tr, td {
+    border: 1pt solid #7fb9c2;;
+}
+
+td img {
+    display: block;
+    width: 75px;
+    height: 75px;
 }
 
 .story {
@@ -315,7 +334,6 @@ fieldset div {
     margin: 15px;
     padding: 8px;
     background-color: rgba(101, 140, 224, 0.884);
-    /* background-color: rgba(218, 234, 240, 0.678); */
 }
 
 .thanks {
@@ -370,3 +388,231 @@ fieldset div {
     font-size: 16px;
 }
 /* end main index.html */
+
+    
+/*
+
+    MEDIUM VIEW
+
+*/
+@media only screen and (min-width: 32.5em) {
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: center;
+}
+    
+.navbar li:first-child {
+    display: none;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+main {
+    text-align: center;
+}
+
+.townevents {
+    text-align: center;
+}
+
+.townevents li {
+    margin: 10px;
+}
+
+
+footer {
+    width: 90%;
+}
+
+/* Town Page */
+.cityarea {
+    width: 85%;
+}
+
+.forecast {
+    display: flex;
+}
+
+.conditionstats {
+    font-size: 1.05em;
+}
+
+.story, .contact {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.townmap img {
+    display: flex;
+    width: 100%;
+}
+/* Town Page */
+
+
+/* Gallery */
+.weatherimages {
+    max-width: 700px;
+    grid-template-columns: 1fr 1fr;
+}
+
+figure {
+    font-size: 1.25em;
+}
+/* Gallery */
+
+/* Stormcenter */
+.radioitem {
+    display: inline;
+}
+
+.towninfo {
+    display: flex; /* flex over grid in medioum */
+    flex-wrap: wrap;
+}
+
+.townsection {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+
+.townsection:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.townsection div {
+    margin: auto;
+}
+
+.townimage {
+    width: 40%;
+}
+/* Stormcenter */
+
+
+}
+/*
+
+    END MEDIUM VIEW
+
+*/
+
+
+
+/*
+
+    LARGE VIEW
+
+*/
+@media only screen and (min-width: 64em) {
+
+li {
+    width: 100%;
+}    
+    
+.motto {
+    font-size: 1em;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 2.8em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    font-size: 16px;
+}
+
+td img {
+    width: 105px;
+    height: 105px;
+}
+
+
+/* Town Page */
+.conditionstats {
+    font-size: 1.4em;
+}
+/* Town Page */
+
+/* Gallery */
+.weatherimages {
+    max-width: 1024px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    
+figure {
+    font-size: 1.5em;
+}
+
+figure:hover {
+    box-shadow: 0 0 30px rgb(136, 135, 135);
+    border-radius: 0px;
+}
+/* Gallery */
+
+/* Stormcenter */
+.townname {
+    font-size: 38px;
+}
+
+.townsection {
+    display: block;
+}
+
+.townsection div {
+    height: 160px;
+}
+
+.towninfo {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.townimage {
+    width: 90%;
+}
+
+.townmotto {
+    font-size: 16px;
+}
+/* Stormcenter */
+}
+
+/*
+
+    END LARGE VIEW
+
+*/
