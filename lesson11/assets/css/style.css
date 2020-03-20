@@ -199,7 +199,6 @@ section.conditionstats p {
 }
 
 table {
-    margin-top: -20px;
     border-collapse: collapse;
     border: 1pt solid #7fb9c2;;
 }
@@ -224,7 +223,7 @@ td img {
     background-color: lightblue;
 }
 
-.parkimage img {
+.infoimage img {
     width: 100%;
 }
 
@@ -241,23 +240,6 @@ td img {
 .townmap img {
     display: none;
 }
-
-/* iframe {
-    height: 300px;
-    width: 100%;
-    margin: 10px;
-    padding: 2px;
-    border:2px solid skyblue;
-} */
-
-.textmsg {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: rgb(172, 92, 247);
-    font-weight: bold;
-    font-size: 1.5em;
- }
 /* Town Page */
 
 /* Gallery */
@@ -365,6 +347,7 @@ fieldset div {
     text-shadow: 2px 2px #76b4e7;
     font-size: 26px;
     font-weight: bold;
+    margin: .4em 0;
 }
 
 .townmotto {
@@ -372,7 +355,6 @@ fieldset div {
     font-style: italic;
     font-weight: bold;
     font-size: 14px;
-    margin-top: -20px;
     padding: 0px 20px;
 }
 
@@ -381,6 +363,7 @@ fieldset div {
     width: 85%;
     margin: 10px auto;
     box-shadow: 0 0 10px #c7bee2;
+    margin-top: 25px;
 }
 
 .towndetails {
