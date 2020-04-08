@@ -65,7 +65,7 @@ nav {
 .currentConditions {
   text-align: center;
   color: white;
-  text-transform:capitalize;
+  text-transform: capitalize;
   font-size: 1.2em;
   margin-top: 100px;
 }
@@ -158,23 +158,24 @@ HOME
 }
 
 .CalltoActionBro {
-  margin: 0 2%;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   border: 1px $border_color solid;
   background-color: $background_color;
 
 .forecast {
-  margin: 0 auto;
-  width: 80%;
 
   table {
+    width: 85%;
+    background-color: whitesmoke;
+    margin: 0 auto;
     border-collapse: collapse;
     border: 1pt solid $header_color;
-  }
+ }
 
   tr, td {
     border: 1pt solid $header_color;
   }
+
 
   th {
     color: $logo_color;
@@ -183,17 +184,15 @@ HOME
   td img {
     display: block;
     margin: 0 auto;
-    width: 75px;
-    height: 75px;
   }
 
-}
+  }
 }
 
 .book_adventure {
     margin: 50px auto;
-
     .reslink {
+      background-color: white;    
       color: $header_color;
       text-decoration: none;
       border-radius: 5px;
@@ -350,7 +349,6 @@ fieldset {
   p {
     color: $background_color;
   }
-
 
   .leftside, .rightside {
     width: 48%;
