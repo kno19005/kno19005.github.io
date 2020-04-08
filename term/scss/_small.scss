@@ -107,6 +107,11 @@ footer {
   }
 }
 
+.currentConditions {
+  span {
+    font-family: $font_family_heading;
+  }
+}
 
 nav, h1,h2,h3,h4 {
   font-family: $font_family_heading;
