@@ -6,7 +6,7 @@
         "years": "9",
         "certlevel": "Class IV",
         "photo": "lesliemorgan.jpg",
-        "biography": "Will is a great fly fisherman and an incredible storyteller. After working for a couple years in Natural Resources."
+        "biography": "Leslie has had a passion for rafting rivers throught the US her whole life. Raised navigating the Salmon by her father, who was a guide, it was natural for her to follow suite."
       },
       {
         "name": "Drew Michaels",
@@ -14,7 +14,7 @@
         "years": "6",
         "photo": "drewmichaels.jpg",
         "certlevel": "Class IV",
-        "biography": "She has a great attitude and a love for the outdoors. Her laugh is contagious and she seems to make everyone around her have more fun."
+        "biography": "Drew attended a river rafting team building event for work. He enjoyed it so much he decided to become a professional guide."
       },
       {
         "name": "Kylee Black",
@@ -22,7 +22,7 @@
         "years": "4",
         "certlevel": "Class III",
         "photo": "kyleeblack.jpg",
-        "biography": "A native of Idaho and was kayaking and rafting on the Salmon river with his family since childhood."
+        "biography": "Worked as a shift manager at Starbucks for many years. Decided to take a break from coffee demands and focus on her passion - kayaking."
       },
       {
         "name": "Chance Stephenson",
@@ -30,7 +30,7 @@
         "years": "7",
         "certlevel": "Class IV",
         "photo": "chancestephenson.jpg",
-        "biography": "Hi loves Idaho’s rivers, history, and beauty gives guests a unique perspective on how special the Idaho Wilderness."
+        "biography": "Graduated from UC Berkeley with a degree in Sequential Art. Found river rafting more enjoyable, and actually pays."
       },
       {
         "name": "Liza Thomas",
@@ -38,7 +38,8 @@
         "years": "5",
         "certlevel": "Class III",
         "photo": "lizathomas.jpg",
-        "biography": "A native of Idaho and was kayaking and rafting on the Salmon river with his family since childhood."
+        "biography": "Born and raised in Idaho, appreciates nature so and has navigated the Salmon her whole life."
+		
       },
       {
         "name": "Tyler Dempsey",
@@ -46,7 +47,7 @@
         "years": "8",
         "certlevel": "Class IV",
         "photo": "tylerdempsey.jpg",
-        "biography": "Hi loves Idaho’s rivers, history, and beauty gives guests a unique perspective on how special the Idaho Wilderness."
+        "biography": "Was a stock broker in Chicago, then realized his passion was people and the outdoors."
       }	  
     ]
   }

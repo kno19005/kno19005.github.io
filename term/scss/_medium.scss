@@ -5,12 +5,10 @@
 nav {
     ul {
         display: flex;
-
         justify-content: center;
 
         li {
             display: flex;
-            justify-content: center;
           }
 
           li:first-child {
@@ -24,18 +22,10 @@ nav {
     FONT
 ******************************************************************************************************/
 
-div, tbody, p, textarea, fieldset, label {
+nav, div, tbody, p, textarea, fieldset, label {
     font-size: $font_medium;
   }
   
-label {
-    font-family: $font_family_fields;
-}
-
-  //   p, textarea, label, .activities {
-//     font-family: $font_family_content;  
-//   }
-
 /******************************************************************************************************
 ******************************************************************************************************/
   
@@ -65,14 +55,8 @@ Activities
     grid-template-columns: 45% 45%;
 
     section {
-        // display: flex;
-        // flex-flow: column;
         padding: 5px 5px;
 
-        // label {
-        //     font-family: $font_family_fields;
-        //   }
-      
         div {
             margin: auto;
         }    
@@ -112,26 +96,6 @@ Guides
     flex-direction: row-reverse;
 }
 
-
-/******************************************************************************************************
-
-Reservations
-
-******************************************************************************************************/
-// table {  
-
-//     tbody {
-//       font-size: $font_medium;
-//     }
-// }
-  
-
-// .contactForm {
-
-//     div {
-//         font-size: $font_medium;
-//     }
-// }
 
 /******************************************************************************************************
 
