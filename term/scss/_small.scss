@@ -347,8 +347,11 @@ fieldset {
   }
 
   .leftside {
-    visibility: collapse;
+    display:  none;
   }
+  // .leftside {
+  //   visibility: collapse;
+  // }
 
 }
 
