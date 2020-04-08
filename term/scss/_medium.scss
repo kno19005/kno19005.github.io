@@ -152,6 +152,7 @@ Contact
         height: 250px;
     }
     iframe {
+        display: block;
         width: 100%;
         height: 250px;
     }
@@ -160,3 +161,8 @@ Contact
     //     height: 250px;
     //   }
 }    
+
+.box2 {
+    display: block;
+
+}
