@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salmon River Adventures; Riggins, Idaho">
+    <title>Salmon River Adventures | Contact</title>
+    <link href="/assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/images/SalmonAdventures.png" alt="Salmon River Adventures Logo">
+        </div>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li><a href="guides.html">River Guides</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="currentConditions">
+                <p>Currently: <span id="temperature"></span> &#176;F & <span id="visual"> </span> </p>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <h1>REACH OUT TO US!</h1>
+        <form class="contactForm" action="thanks.html">
+            <fieldset>
+                <div><label class="fieldRequired">*</label>
+                    <label for="fullName">Full Name:<input type="text" name="fullName" id="fullName"
+                            pattern="[A-Z a-z]{5,}" placeholder="first last" required></label>
+                </div>
+                <div>
+
+                    <label class="fieldRequired">*</label>
+                    <label for="email">E-mail:<input type="email" name="email" id="email"
+                            placeholder="your@email.com" required></label>
+                </div>
+                <div>
+                    <label class="fieldRequired">*</label>
+                    <label for="phoneNumber">Phone Number:<input type="tel" name="phoneNumber" id="phoneNumber"
+                            placeholder="###-###-####" required></label>
+                </div>
+                <textarea name="addinfo" class="addinfo" placeholder="ask your question..." rows="10" cols="40"></textarea>
+
+                <div class="submitButton">
+                    <input id="submitButton" type="submit" value="Submit">
+                </div>
+            </fieldset>
+
+        </form>
+        <section class="companyInfo">
+            <div class="leftside">
+                <iframe style="border:0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.575267834578!2d-116.31988428444407!3d45.41790377910047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c5695ed5fae5%3A0x837cd0558ffd520c!2s1000%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1584937042702!5m2!1sen!2sus"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="rightside">
+                <h4>Contact Information</h4>
+                <p>Salmon River Adventures</p>
+                <p>1000 S Main St.</p>
+                <p>Riggins, Idaho</p>
+                <p>(208) 123-4567</p>
+                <p>contact@salrivadv.org</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            &copy; <span id="copyrightYear"> </span> Salmon River Adventures | Riggins, Idaho | <a href="resources.html">Resources</a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/assets/js/script.js" async></script>
+
+</body>
+
+</html>

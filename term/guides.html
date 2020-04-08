@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salmon River Adventures; Riggins, Idaho">
+    <title>Salmon River Adventures | River Guides</title>
+    <link href="/assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body onload="guideInfo()">
+    <header>
+        <div class="logo">
+            <img src="/assets/images/SalmonAdventures.png" alt="Salmon River Adventures Logo">
+        </div>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adventures.html">Adventures</a></li>
+                <li><a href="guides.html" class="active">River Guides</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="currentConditions">
+                <p>Currently: <span id="temperature"></span> &#176;F & <span id="visual"> </span> </p>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>OUR RIVER GUIDES!</h1>
+        <div class="guides"></div>
+    </main>
+    <footer>
+        <div>
+            &copy; <span id="copyrightYear"> </span> Salmon River Adventures | Riggins, Idaho | <a
+                href="resources.html">Resources</a>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/assets/js/script.js" async></script>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+{
+    "guides": [
+      {
+        "name": "Leslie Morgan",
+        "email": "LeslieMorgan@salrivadv.com",
+        "years": "9",
+        "certlevel": "Class IV",
+        "photo": "lesliemorgan.jpg",
+        "biography": "Will is a great fly fisherman and an incredible storyteller. After working for a couple years in Natural Resources."
+      },
+      {
+        "name": "Drew Michaels",
+        "email": "DrewMichaels@salrivadv.com",
+        "years": "6",
+        "photo": "drewmichaels.jpg",
+        "certlevel": "Class IV",
+        "biography": "She has a great attitude and a love for the outdoors. Her laugh is contagious and she seems to make everyone around her have more fun."
+      },
+      {
+        "name": "Kylee Black",
+        "email": "KyleeBlack@salrivadv.com",
+        "years": "4",
+        "certlevel": "Class III",
+        "photo": "kyleeblack.jpg",
+        "biography": "A native of Idaho and was kayaking and rafting on the Salmon river with his family since childhood."
+      },
+      {
+        "name": "Chance Stephenson",
+        "email": "ChanceStephenson@salrivadv.com",
+        "years": "7",
+        "certlevel": "Class IV",
+        "photo": "chancestephenson.jpg",
+        "biography": "Hi loves Idaho’s rivers, history, and beauty gives guests a unique perspective on how special the Idaho Wilderness."
+      },
+      {
+        "name": "Liza Thomas",
+        "email": "LizaThomas@salrivadv.com",
+        "years": "5",
+        "certlevel": "Class III",
+        "photo": "lizathomas.jpg",
+        "biography": "A native of Idaho and was kayaking and rafting on the Salmon river with his family since childhood."
+      },
+      {
+        "name": "Tyler Dempsey",
+        "email": "TylerDempsey@salrivadv.com",
+        "years": "8",
+        "certlevel": "Class IV",
+        "photo": "tylerdempsey.jpg",
+        "biography": "Hi loves Idaho’s rivers, history, and beauty gives guests a unique perspective on how special the Idaho Wilderness."
+      }	  
+    ]
+  }
