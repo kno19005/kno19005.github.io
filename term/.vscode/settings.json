@@ -1,16 +1,16 @@
 {
      "liveSassCompile.settings.formats":[
-        // {
-        //     "format": "expanded",
-        //     "extensionName": ".css",
-        //     "savePath": "assets/css"
-        // }
-        // ,
         {
+            "format": "expanded",
             "extensionName": ".css",
-            "format": "compressed",
             "savePath": "/assets/css"
         }
+//        ,
+//        {
+//            "extensionName": ".css",
+//            "format": "compressed",
+//            "savePath": "/assets/css"
+//        }
     ],
     "liveSassCompile.settings.excludeList": [
        "**/node_modules/**",
