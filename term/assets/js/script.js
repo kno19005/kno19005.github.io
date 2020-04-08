@@ -114,7 +114,7 @@ function guideInfo(){
                     guideYears.textContent = guide.years + " Years & " + guide.certlevel + " certified"
                     guideBio.textContent = "Biography: " + guide.biography;
 
-                    guidePic.setAttribute('src', "./assets/images/" + guide.photo);            
+                    guidePic.setAttribute('src', "assets/images/" + guide.photo);            
                     guidePic.setAttribute('alt', "picture of: " + guideName.textContent);
 
 
