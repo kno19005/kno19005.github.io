@@ -339,6 +339,14 @@ fieldset {
   background-color: $header_color;
   margin-bottom: -20px; //! i know this is a no-no.. but I'm countering a global footer margin specific to this page
 
+  h4 {
+    color: white;
+  }
+  p {
+    color: $background_color;
+  }
+
+
   .leftside, .rightside {
     width: 48%;
     flex: 1 0 15em;
@@ -349,9 +357,6 @@ fieldset {
   .leftside {
     display:  none;
   }
-  // .leftside {
-  //   visibility: collapse;
-  // }
 
 }
 
