@@ -47,15 +47,19 @@ function getFiveDayForecast(apiURL) {
 
             let dayz = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
             let dayNo = 1;
-            for (let day of jsObject.list) {
+            for (var day of jsObject.list) {
                 if (day.dt_txt.includes("18:00:00")) {
                     let date = new Date(day.dt_txt);
                     let dayStr = "day" + dayNo;
-                    const loadimage = `https://openweathermap.org/img/w/${day.weather[0].icon}.png`;
-                    document.getElementById(dayStr).textContent = dayz[date.getDay()];
-                    document.getElementById(`${dayStr}_temp`).textContent = day.main.temp.toFixed(0);
-                    document.getElementById(`${dayStr}_image`).setAttribute('src', loadimage);
-                    document.getElementById(`${dayStr}_image`).setAttribute('alt', day.weather[0].description);
+
+                    // fixed bug, only do stuff if it finds the element
+                    if (document.getElementById(dayStr)){
+                        const loadimage = `https://openweathermap.org/img/w/${day.weather[0].icon}.png`;
+                        document.getElementById(dayStr).textContent = dayz[date.getDay()];
+                        document.getElementById(`${dayStr}_temp`).textContent = day.main.temp.toFixed(0);
+                        document.getElementById(`${dayStr}_image`).setAttribute('src', loadimage);
+                        document.getElementById(`${dayStr}_image`).setAttribute('alt', day.weather[0].description);
+                        }
                     dayNo++;
                 }
             }
