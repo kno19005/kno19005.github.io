@@ -1,0 +1,60 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+
+}
+
+.logo {
+    width: 150px;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+header, footer {
+    color: white;
+    background-color: rgba(5, 93, 128, 0.678);
+    border-radius: 6px;
+    margin: 1em 0;
+}
+
+header {
+    padding: .01em 0 0.01em 4.25em;
+}
+
+footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+#footdiv {
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+main {
+    margin: 1.5em;
+    grid-template-columns: 1fr;
+}
+
+h2 {
+    border-bottom: medium ridge lightgray;
+    border-bottom-width: 2px;
+}
+
+#lastUpdated {
+    color: yellow;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 32.5em) {
+
+    .logo {
+        float: right;
+    }
+}
