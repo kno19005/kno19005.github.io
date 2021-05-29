@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <div class="todo_content">
+            <h2>To-Do List</h2>
+            <ul class="task-items">
+            </ul>
+            <div class="tasks-buttons">
+                <label id="tasks-left"></label>
+                <button type="button" value="1" class="task-filter">All</button>
+                <button type="button" value="2" class="task-filter">Active</button>
+                <button type="button" value="3" class="task-filter">Completed</button>
+            </div>
+            <div id="tasks-bottom">
+                <input type="text" id="new-task-item" name="new-task-item" placeholder="new task" autofocus required>
+                <button id="add-task-button" type="button"><i class="fa fa-plus"></i></button>
+            </div>
+            <div id="error-msg">
+                * Task cannot be blank *
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>

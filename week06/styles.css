@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 56, 56);
+    margin-top: 75px;
+}
+
+main {
+    width: 350px;
+    background-color: whitesmoke;
+    margin: 1em auto 0 auto;
+}
+
+h2 {
+    margin: 5px 0px;
+    color: rgb(84, 139, 141);
+}
+
+.todo_content {
+    text-align: center;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.task-items {
+    height: 40vh;
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    border: 1px solid black;
+}
+
+.task-item {
+    height: 26px;
+    vertical-align: super;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1px;
+}
+
+.tasks-buttons {
+    width: 100%;
+    padding: 5px 0px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.trash {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 3px 4px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0px 2px 0px auto;
+    order: 2;
+}
+
+.task-name {
+    padding-left: 10px;
+}
+
+
+input[type=checkbox] {
+    margin-left: 10px;
+    transform: scale(1.8);
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked+label {
+    font-style: normal;
+    text-decoration: line-through;
+    text-decoration-color: blue;
+}
+
+#new-task-item {
+    margin: 20px 0px 20px 0px;
+    width: 80%;
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+#add-task-button {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 3px 4px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#tasks-left {
+    float: left;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 14px;
+    color: rgb(84, 139, 141);
+}
+
+.task-filter {
+    border: none;
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 3px;
+    cursor: pointer;
+    color: rgb(84, 139, 141);    
+}
+
+.task-filter:hover {
+    background-color: lightblue;
+}
+
+.task-filter-active {
+    border: 1px solid darkslategray;
+    background-color: lightblue;
+}
+
+#error-msg {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: blue;
+}
