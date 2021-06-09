@@ -27,9 +27,9 @@ addEvent('dragover', cat, function(event) {
 // bind the drop event on the cat
 addEvent('drop', cat, function(event) {
   var mouseHash = {
-     mouse1: 'NOMNOMNOM',
-     mouse2: 'Mreow',
-     mouse3: 'Purrrrrr...'
+     mouse1: 'Mouse 1!',
+     mouse2: 'Mouse 2!',
+     mouse3: 'Mouse 3!'
    };
 
 	var ch = document.getElementById('catHeading');

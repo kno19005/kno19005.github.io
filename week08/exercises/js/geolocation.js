@@ -16,7 +16,7 @@ function determineLocation() {
         var container = Raphael(document.getElementById("spinner"), 125, 125);
         var spinner = container.image("images/spinnerBW.svg", 0, 0, 125, 125);
         var attrsToAnimate = { transform: "r720" }; 
-    		spinner.animate(attrsToAnimate, 60000);        
+    		spinner.animate(attrsToAnimate, 10000);        
       }
       else {
         // geolocation is not supported in this browser
