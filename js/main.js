@@ -35,6 +35,10 @@ function loadListItems() {
         {
             label: "Week 09",
             url: "week09/index.html"
+        },
+        {
+            label: "Week 10",
+            url: "week10/index.html"
         }
     ];
 
