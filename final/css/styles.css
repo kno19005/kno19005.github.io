@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(47, 95, 93);
+}
+
+form {
+    margin: auto;
+    width: 80%;
+    padding: 5px 0 20px 0;
+    background-color: whitesmoke;
+}
+
+#banner,
+img {
+    margin: 0 auto;
+    width: 99%;
+}
+
+h1 {
+    margin-top: 50px;
+    color: rgb(119, 119, 119);
+    /* text-decoration: underline; */
+}
+
+form,
+input,
+select {
+    border: 0 none;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 150, 150);
+}
+
+select:hover,
+input:hover {
+    background-color: lightblue;
+    /* rgb(143, 236, 232); */
+}
+
+.tdleft {
+    text-align: left;
+}
+
+.tdleft:hover {
+    background-color: lightblue;
+    color: blue;
+}
+
+.tdright {
+    text-align: right;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+label {
+    color: rgb(151, 150, 150);
+}
+
+input {
+    color: rgb(119, 119, 119);
+}
+
+#msg {
+    color: lightslategray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+thead {
+    color: lightslategray;
+}
+
+.button_company {
+    width: 60px;
+}

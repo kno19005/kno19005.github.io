@@ -39,6 +39,10 @@ function loadListItems() {
         {
             label: "Week 10",
             url: "week10/index.html"
+        },
+        {
+            label: "Course Final",
+            url: "final/index.html"
         }
     ];
 

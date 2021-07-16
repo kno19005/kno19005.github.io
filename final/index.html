@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockology - Corporate Financials</title>
+    <link rel="stylesheet" type='text/css' href="css/styles.css">
+
+</head>
+
+<body>
+    <form>
+        <div id="banner">
+            <img  src="images/banner.png" alt="stock image">
+
+        </div> <br>
+        <div>
+            <label for="symbol">Corporate Symbol or Name: </label>
+            <input type="text" id="symbol" name="symbol" required><br><br>
+            <input type="button" id="btnTicker" name="btnTicker" value="Lookup Symbol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" id="btnCompany" name="btnCompany" value="Search For Company"><br><br>
+        </div>
+
+        <div id="msg"></div>
+        <br>
+        <div id="resultTable"></div>
+    </form>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
